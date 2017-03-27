@@ -12,7 +12,8 @@
 		95B1080B1E84EA0100282B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B108091E84EA0100282B81 /* Main.storyboard */; };
 		95B1080D1E84EA0100282B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B1080C1E84EA0100282B81 /* Assets.xcassets */; };
 		95B108101E84EA0100282B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B1080E1E84EA0100282B81 /* LaunchScreen.storyboard */; };
-		95E42F181E87CD4E0039FFC8 /* PatientMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E42F171E87CD4D0039FFC8 /* PatientMainViewController.swift */; };
+		95E42F1A1E87FBA70039FFC8 /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E42F191E87FBA70039FFC8 /* PatientListViewController.swift */; };
+		95E42F1C1E88082C0039FFC8 /* PatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E42F1B1E88082C0039FFC8 /* PatientDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		95B1080C1E84EA0100282B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B1080F1E84EA0100282B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B108111E84EA0100282B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95E42F171E87CD4D0039FFC8 /* PatientMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMainViewController.swift; sourceTree = "<group>"; };
+		95E42F191E87FBA70039FFC8 /* PatientListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		95E42F1B1E88082C0039FFC8 /* PatientDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				95B1080C1E84EA0100282B81 /* Assets.xcassets */,
 				95B1080E1E84EA0100282B81 /* LaunchScreen.storyboard */,
 				95B108111E84EA0100282B81 /* Info.plist */,
-				95E42F171E87CD4D0039FFC8 /* PatientMainViewController.swift */,
+				95E42F191E87FBA70039FFC8 /* PatientListViewController.swift */,
+				95E42F1B1E88082C0039FFC8 /* PatientDetailViewController.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95B108081E84EA0100282B81 /* ViewController.swift in Sources */,
-				95E42F181E87CD4E0039FFC8 /* PatientMainViewController.swift in Sources */,
+				95E42F1C1E88082C0039FFC8 /* PatientDetailViewController.swift in Sources */,
 				95B108061E84EA0100282B81 /* AppDelegate.swift in Sources */,
+				95E42F1A1E87FBA70039FFC8 /* PatientListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
